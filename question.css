@@ -1,0 +1,87 @@
+body {
+    background-color: #EBF6FF;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    width: auto;
+    padding: 10px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0 30px;
+    padding-top: 30px;
+}
+
+#name h3{
+    display: flex;
+    color: #fff;
+    padding-left: 800px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 2px 2px #c0c2d1;
+    border-radius: 20px;
+}
+
+.maths {
+    text-align: center;
+}
+
+.number {
+    display: flex;
+    padding: 5px 30px;
+}
+
+.number p:nth-child(even) {
+    padding: 0 30px;
+    border-bottom: 2px solid #4C8BF0;
+    width: 0.5px;
+}
+
+input[type=radio] {
+    padding: 10px 30px;
+}
+
+button {
+    color: #fff;
+    background-color: #0E0AE5;
+    width: 90px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+}
+
+.button {
+    padding: 108px 341px;
+}
+

@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #EBF6FF;
+    display: flex;
+    height: 60px;
+    width: auto;
+    padding: 10px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0 30px;
+    padding-top: 30px;
+}
+
+#name h3{
+    display: flex;
+    color: black;
+    padding-left: 800px;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 2px 2px #c0c2d1;
+    border-radius: 20px;
+}
+
+.math h4 {
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.question {
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+.footer {
+    padding-top: 70px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.footer a:nth-child(odd) {
+    color: black;
+    float: left;
+}
+
+.footer a:nth-child(even) {
+    color: #0E0AE5;
+    padding-left: 390px;
+}
+
+.exit {
+   text-align: center;
+   margin-top: 550px;
+}
+.exit button {
+    background-color: rgb(199, 41, 41);
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
